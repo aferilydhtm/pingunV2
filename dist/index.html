@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style2.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/662346788c.js" crossorigin="anonymous"></script>
+
+    <!-- style khusus -->
+    <style>
+        #menu-toggle:checked + #menu {
+          display: block;
+        }
+    </style>
+
+    <title>PINGUIN WEBS</title>
+</head>
+<body>
+    <!-- navbar -->
+    <header class="lg:px-16 px-6 bg-white flex flex-wrap items-center pb-3 pt-3 md:pb-5 md:pt-1">
+        <div class="flex-1 flex justify-between items-center">
+          <img src="img/logo.svg" class="w-52 pt-2 md:pt-4 md:w-52 md:ml-5" alt="logo" />
+        </div>
+  
+        <label for="menu-toggle" class="cursor-pointer lg:hidden block"
+          ><svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+            <title>menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg
+        ></label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+  
+        <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+          <nav class="md:pt-6 md:mr-5">
+            <ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0 md:text-sm font-poppins">
+              <li class="nav__item">
+                <a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black hover:text-black active-link" href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black hover:text-black" href="#project">PROJECT</a>
+              </li>
+              <li>
+                <a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black hover:text-black" href="#member">MEMBERS</a>
+              </li>
+              <li>
+                <a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-black hover:text-black" href="#home">ABOUT</a>
+              </li>
+              
+            </ul>
+          </nav>
+        </div>
+      </header>
+  <!-- end navbar -->
+
+  <!-- Home -->
+  <section class="home section" id="home">
+    <div class="bg-slate-400 h-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2"> 
+        <div class="font-poppins text-base ml-10 mr-10 md:ml-20 md:mr-10 md:p-1 mt-14 mb-14 md:mt-15 md:mb-15 text-center md:text-left">
+          <h1 class="text-black text-5xl font-extrabold md:font-extrabold" style="text-transform: uppercase">WELCOME TO PINGUINS WEBSITE</h1>
+          <p class="font-poppins text-black mt-5 mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsum dolorum quos, et repellat iste assumenda architecto, molestiae nemo dicta voluptates provident neque ipsam fugit, laboriosam inventore nulla numquam voluptas!</p>
+          <a
+            href="#"
+            class="font-poppins bg-white hover:bg-black duration-200 text-black hover:text-white rounded-full py-3 px-14 md:py-3 md:px-12 w-auto text-xl md:text-lg"
+            >Project <span class="fas fa-angle-double-right"></span></a
+          ><br /><br /><br/>
+          <a
+            href="#"
+            class="font-poppins bg-black hover:bg-white duration-200 text-white hover:text-black rounded-full py-3 px-14 md:py-3 md:px-12 w-auto text-xl md:text-lg"
+            >Members</a
+          >
+        </div>
+
+        <div class="order-first md:order-last w-full pt-12 px-5">
+          <img src="img/gambar1.svg" alt="team" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Home -->
+
+  <!-- Project -->
+  <section class="project section" id="project">
+    <div class="bg-white h-auto pt-14 pb-14">
+      <div class="container mx-auto">
+        <h1 class="text-center text-4xl text-extrabold text-black px-20 font-poppins"><strong>PROJECT WEB</strong></h1>
+        <div class="grid grid-cols-1 gap-10 mt-12 mb-16 ml-10 mr-10 md:grid-cols-3 font-poppins">
+
+          <div class="border bg-gray-300 shadow-lg rounded">
+            <img src="img/XC.png" alt="game" />
+            <h1 class="mt-2 ml-4 mb-1"><a class="hover:font-bold" href="http://xc-class-s122.vercel.app/">XC-Class-S1</a></h1>
+            <p class="ml-4 mb-3">Created By <a class="hover:font-bold" href="https://www.instagram.com/aferil_ydtma/">Aferil</a></p>
+            <div class="flex">
+              <a class="bg-black hover:bg-gray-700 duration-200 text-white rounded py-2 px-4 h-full ml-4 mb-3 text-lg md:text-sm" href="http://xc-class-s122.vercel.app/"
+                >View More <span class="fas fa-angle-double-right"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="border bg-gray-300 shadow-lg rounded">
+            <img src="img/UBLPMB.png" alt="game" />
+            <h1 class="mt-2 ml-4 mb-1"><a class="hover:font-bold" href="http://web-pmb-budiluhur.vercel.app/">Web PMB BudiLuhur</a></h1>
+            <p class="ml-4 mb-3">Created By <a class="hover:font-bold" href="https://www.instagram.com/aferil_ydtma/">Aferil</a></p>
+            <div class="flex">
+              <a class="bg-black hover:bg-gray-700 duration-200 text-white rounded py-2 px-4 h-full ml-4 mb-3 text-lg md:text-sm" href="http://web-pmb-budiluhur.vercel.app/"
+                >View More <span class="fas fa-angle-double-right"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="border bg-gray-300 shadow-lg rounded">
+            <img src="img/UNIGAMES.png" alt="game" />
+            <h1 class="mt-2 ml-4 mb-1"><a class="hover:font-bold" href="http://unigames-beta.vercel.app/">Unigames</a></h1>
+            <p class="ml-4 mb-3">Created By <a class="hover:font-bold" href="https://www.instagram.com/aferil_ydtma/">Aferil</a></p>
+            <div class="flex">
+              <a class="bg-black hover:bg-gray-700 duration-200 text-white rounded py-2 px-4 h-full ml-4 mb-3 text-lg md:text-sm" href="http://unigames-beta.vercel.app/"
+                >View More <span class="fas fa-angle-double-right"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="border bg-gray-300 shadow-lg rounded">
+            <img src="img/PinguinsV1.png" alt="game" />
+            <h1 class="mt-2 ml-4 mb-1"><a class="hover:font-bold" href="http://pinguins.vercel.app/">Pinguins V1</a></h1>
+            <p class="ml-4 mb-3">Created By <a class="hover:font-bold" href="https://www.instagram.com/aferil_ydtma/">Aferil</a></p>
+            <div class="flex">
+              <a class="bg-black hover:bg-gray-700 duration-200 text-white rounded py-2 px-4 h-full ml-4 mb-3 text-lg md:text-sm" href="http://pinguins.vercel.app/"
+                >View More <span class="fas fa-angle-double-right"></span
+              ></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Project -->
+
+  <!-- Anggota -->
+  <section class="member section" id="member">
+    <div class="bg-slate-400 h-auto">
+        <div class="container mx-auto pt-5 pb-10 font-poppins">
+            <h1 class="text-center text-4xl text-extrabold text-white font-poppins pt-3 md:pt-6 pb-10 mb:pb-1 px-20"><strong>MEMBERS PINGUINS</strong></h1>
+
+            <div class="hidden md:flex">
+                <div class="grid grid-cols-1 gap-10 mt-4 mb-16 ml-10 mr-10 md:grid-cols-3">
+                    <div class="border bg-gray-200 shadow-lg rounded-md">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Aferil Yudhatama</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Mahasiswa</h3>
+                    </div>
+                    <!-- <div class="border bg-gray-200 shadow-lg rounded-md">
+                        <img class="md:px-10 pt-3" src="img/female.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Anisa Dwi Utami</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Mahasiswa UBL</h3>
+                    </div> -->
+                    <!-- <div class="border bg-gray-200 shadow-lg rounded-md">
+                        <img class="md:px-10 pt-3" src="img/female.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Ezza Valent Putri</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Mahasiswa UBL</h3>
+                    </div>                    -->
+                    <!-- <div class="border bg-gray-200 shadow-lg rounded-md">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Hafidhul Azmi</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Mahasiswa UBL</h3>
+                    </div> -->
+                    <!-- <div class="border bg-gray-200 shadow-lg rounded-md">
+                        <img class="md:px-10 pt-3" src="img/female.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Junica Kristin Ompusunggu</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Mahasiswa UBL</h3>
+                    </div> -->
+                    <!-- <div class="border bg-gray-200 shadow-lg rounded-md">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Muhammad Hariz Nurbudianto</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Mahasiswa UBL</h3>
+                    </div> -->
+                    <!-- <div class="border bg-gray-200 shadow-lg rounded-md">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Muhammad Rizky Marten</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Mahasiswa UBL</h3>
+                    </div> -->
+                    <div class="border bg-gray-200 shadow-lg rounded-md">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Muhammad syachru Rizky</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Mahasiswa</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Rendy Lorenso</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Mahasiswa</h3>
+                    </div>
+                    <!-- <div class="border bg-gray-200 shadow-lg rounded-md">
+                        <img class="md:px-10 pt-3" src="img/female.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Shafina Dwiandra Putri</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Mahasiswa UBL</h3>
+                    </div> -->
+                    <!-- <div class="border bg-gray-200 shadow-lg rounded-md">
+                        <img class="md:px-10 pt-3" src="img/female.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Wasilah Ulul Azmi</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Mahasiswa UBL</h3>
+                    </div> -->
+                    <!-- <div class="border bg-gray-200 shadow-lg rounded-md">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Wildan Harya Khairi</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Mahasiswa UBL</h3>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="md:hidden overflow-y-auto h-32 pr-5 pl-5 font-poppins">
+                <div class="border bg-gray-200 shadow-lg rounded">
+                    <div class="col-span-12">
+                        <div class="grid grid-cols-12 pt-2 pb-2">
+                            <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                            <div class="col-span-7 pl-3 pt-1">
+                                <p>Aferil Yudhatama</p>
+                                <p class="text-xs text-gray-500">Mahasiswa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="border bg-gray-200 shadow-lg rounded">
+                    <div class="col-span-12">
+                        <div class="grid grid-cols-12 pt-2 pb-2">
+                            <div class="col-span-2 pt-1 pl-3"><img src="img/female.svg" alt=""></div>
+                            <div class="col-span-7 pl-3 pt-1">
+                                <p>Anisa Dwi Utami</p>
+                                <p class="text-xs text-gray-500">Mahasiswa UBL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="border bg-gray-200 shadow-lg rounded">
+                    <div class="col-span-12">
+                        <div class="grid grid-cols-12 pt-2 pb-2">
+                            <div class="col-span-2 pt-1 pl-3"><img src="img/female.svg" alt=""></div>
+                            <div class="col-span-7 pl-3 pt-1">
+                                <p>Ezza Valent Putri</p>
+                                <p class="text-xs text-gray-500">Mahasiswa UBL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="border bg-gray-200 shadow-lg rounded">
+                    <div class="col-span-12">
+                        <div class="grid grid-cols-12 pt-2 pb-2">
+                            <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                            <div class="col-span-7 pl-3 pt-1">
+                                <p>Hafidhul Azmi</p>
+                                <p class="text-xs text-gray-500">Mahasiswa UBL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="border bg-gray-200 shadow-lg rounded">
+                    <div class="col-span-12">
+                        <div class="grid grid-cols-12 pt-2 pb-2">
+                            <div class="col-span-2 pt-1 pl-3"><img src="img/female.svg" alt=""></div>
+                            <div class="col-span-7 pl-3">
+                                <p>Junica Kristin Ompusunggu</p>
+                                <p class="text-xs text-gray-500">Mahasiswa UBL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="border bg-gray-200 shadow-lg rounded">
+                    <div class="col-span-12">
+                        <div class="grid grid-cols-12 pt-2 pb-2">
+                            <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                            <div class="col-span-7 pl-3 ">
+                                <p>Muhammad Hariz Nurbudianto</p>
+                                <p class="text-xs text-gray-500">Mahasiswa UBL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="border bg-gray-200 shadow-lg rounded">
+                    <div class="col-span-12">
+                        <div class="grid grid-cols-12 pt-2 pb-2">
+                            <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                            <div class="col-span-7 pl-3 ">
+                                <p>Muhammad Rizky Marten</p>
+                                <p class="text-xs text-gray-500">Mahasiswa UBL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="border bg-gray-200 shadow-lg rounded">
+                    <div class="col-span-12">
+                        <div class="grid grid-cols-12 pt-2 pb-2">
+                            <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                            <div class="col-span-7 pl-3 ">
+                                <p>Muhammad Syachru Rizky</p>
+                                <p class="text-xs text-gray-500">Mahasiswa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border bg-gray-200 shadow-lg rounded">
+                    <div class="col-span-12">
+                        <div class="grid grid-cols-12 pt-2 pb-2">
+                            <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                            <div class="col-span-7 pl-3 pt-1">
+                                <p>Rendy Lorenso</p>
+                                <p class="text-xs text-gray-500">Mahasiswa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="border bg-gray-200 shadow-lg rounded">
+                    <div class="col-span-12">
+                        <div class="grid grid-cols-12 pt-2 pb-2">
+                            <div class="col-span-2 pt-1 pl-3"><img src="img/female.svg" alt=""></div>
+                            <div class="col-span-7 pl-3 ">
+                                <p>Shafina Dwiandra Putri</p>
+                                <p class="text-xs text-gray-500">Mahasiswa UBL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="border bg-gray-200 shadow-lg rounded">
+                    <div class="col-span-12">
+                        <div class="grid grid-cols-12 pt-2 pb-2">
+                            <div class="col-span-2 pt-1 pl-3"><img src="img/female.svg" alt=""></div>
+                            <div class="col-span-7 pl-3 pt-1">
+                                <p>Wasilah Ulul Azmi</p>
+                                <p class="text-xs text-gray-500">Mahasiswa UBL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="border bg-gray-200 shadow-lg rounded">
+                    <div class="col-span-12">
+                        <div class="grid grid-cols-12 pt-2 pb-2">
+                            <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                            <div class="col-span-7 pl-3 pt-1">
+                                <p>Wildan Harya Khairi</p>
+                                <p class="text-xs text-gray-500">Mahasiswa UBL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>            -->
+
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- End Anggota -->
+
+  <!-- footer -->
+  <div class="bg-black h-auto md:h-20">
+    <div class="container mx-auto">
+      <p class="text-white text-center pt-7 pb-7 font-poppins px-10">
+        Copyright @ 2022. <a class="text-gray-600 md:hover:text-white" href="#">Pinguins</a>. All Right Reserved
+      </p>
+    </div>
+  </div>
+  <!-- Akhir footer -->
+
+  <!-- JavaScript -->
+    <!-- Scroll Back to Top -->
+    <script src="js/up_btn.js"></script>
+    <script>
+    up({});
+    </script>
+    <!-- Scroll Back to Top -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+  <!-- End JavaScript -->
+
+</body>
+</html>

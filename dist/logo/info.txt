@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: built_titling_sb
+font link: https://www.fontspring.com/fonts/typodermic/built-titling
+font author: Typodermic
+font author site: http://typodermicfonts.com/
+Slogan Font: SpaceMono-Regular.ttf
+
+icon designer: Chris Kerr
+icon designer link: /chrisk3rr
+        
+
+fontColor: {"gradient-0":"#0B1FD4","gradient-1":"#0BD4C5"}
+bgColor: {"hex":"transparent"}
+iconColor: {"gradient-0":"#0B1FD4","gradient-1":"#0BD4C5"}
+sloganColor: {"hex":"#000000"}
+      
